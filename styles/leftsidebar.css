@@ -1,0 +1,148 @@
+.left-sidebar {
+    position: relative;
+    background-color: rgb(37, 37, 37);
+    width: 300px;
+    height: 500px;
+
+    margin-top: 100px;
+    display: flex;
+    z-index: 100;
+    top: 80px;
+    border-radius: 8px;
+}
+.left-upper-sidebar {
+    display: flex;
+    position: relative;
+    border-radius: 8px;
+    background-color: rgb(78, 78, 78);
+    position: fixed;
+
+    z-index: 100;
+    top: 80px;
+    width: 300px;
+    height: 110px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 1);
+}
+.upper-sidebar {
+    display: flex;
+    position: absolutes;
+}
+
+.your {
+  
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 8px;
+}
+.book {
+    height: 35px;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.library {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(197, 193, 193);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.your .top-tooltip {
+    position: absolute;
+    background-color: rgb(78, 78, 78);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    top: -20px;
+    width: 150px;
+    padding-left: 5px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 1s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.your:hover .top-tooltip{
+    opacity: 1;
+}
+.plus-icon {
+    
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.create {
+    cursor: pointer;
+}
+.create .tooltip-folder {
+    position: absolute;
+
+    background-color: rgb(78, 78, 78);
+    color: white;
+    width: 160px;
+    padding-left: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    top: -26px;
+    white-space: nowrap;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.create:hover .tooltip-folder {
+    opacity: 1;
+}
+
+.bottom-sidebar {
+    margin-left: 10px;
+    
+    position: relative;
+   
+    width: 200px;
+    height: 370px;
+}
+.liked-songs {
+    position: relative;
+    margin: 10px;
+    width: 260px;
+    height: 80px;
+    border-radius: 8px;
+    display: flex; 
+    cursor: pointer;
+}
+.liked-songs:hover{
+    background-color: gray;
+}
+.liked {
+    height: 65px;
+    margin-top: 7px;
+    margin-left: 7px;
+    border-radius: 5px;
+}
+.song {
+    display: flex;
+    flex-direction: column;
+}
+.like {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.play {
+    color: rgb(214, 214, 214);
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 10px;
+    margin-top: 3px;
+}
